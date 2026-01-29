@@ -90,7 +90,7 @@ const BigPopup = ({ onMinimize, onTaskSelect }) => {
   return (
     <>
       {/* Main popup */}
-      <div className="fixed inset-0 bg-black/20 z-50 flex items-center justify-center p-4">
+      <div className="fixed inset-0 bg-black/20 z-40 flex items-center justify-center p-4">
         <div className="w-full max-w-3xl bg-[#fadf44] rounded-2xl shadow-2xl">
           {/* Header */}
           <div className="px-8 pt-8 pb-4">

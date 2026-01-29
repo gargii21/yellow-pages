@@ -79,7 +79,7 @@ const MiniPopup = ({ task, onMaximize }) => {
       onMouseMove={handleMouseMove}
       onMouseUp={handleMouseUp}
       onDoubleClick={onMaximize}
-      className="fixed cursor-grab active:cursor-grabbing z-50"
+      className="fixed cursor-grab active:cursor-grabbing z-500"
       style={{
         left: `${position.x}px`,
         top: `${position.y}px`,

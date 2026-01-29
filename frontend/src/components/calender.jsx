@@ -65,7 +65,7 @@ const Calendar = ({ selectedDate, onDateSelect, onClose }) => {
 
   return (
     <div 
-      className="fixed inset-0 bg-black/50 z-[100] flex items-center justify-center p-4"
+      className="fixed inset-0 bg-black/50 z-[1000] flex items-center justify-center p-4"
       onClick={(e) => {
         // Close if clicking on backdrop
         if (e.target === e.currentTarget) {
